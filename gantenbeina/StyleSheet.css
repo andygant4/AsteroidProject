@@ -1,0 +1,39 @@
+﻿/*
+//---------------------------------------------------------------------------------------------
+// Class : CS 3870
+//
+// Name : Andrew Gantenbein
+//
+// UserName : gantenbeina
+//
+// Description: Style Sheet Prog2StyleSheet.css of Prog2 and other programs
+//
+//---------------------------------------------------------------------------------------------
+*/
+.CS3870Title {
+    font-family: Arial;
+    text-decoration: underline;
+    color: #0000FF;
+    text-align: center;
+}
+
+.CS3870Name {
+    font-family: Calibri;
+    color: #000000;
+    text-align: center;
+    font-style: italic;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 10em;
+    z-index: 1;
+}
+body {
+    padding-left: 10em;
+}

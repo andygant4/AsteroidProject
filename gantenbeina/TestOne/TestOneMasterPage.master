@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="TestOneMasterPage.master.cs" Inherits="TestOne_TestOneMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="TestOneStyleSheet.css" rel="stylesheet" type="text/css" />
+    <title>Test One</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <h1 class="CS3870TestTitle">CS 3870 - Test One</h1>
+        <h2 class="CS3870TestName">Andrew Gantenbein</h2>
+        <ul class="navbar">
+            <li> <a href="Default.aspx"> All Employees</a></li>
+            <li> <a href="Individual.aspx"> Updating Employees</a></li>
+        </ul>
+    <div>
+        <asp:ContentPlaceHolder id="CPBody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

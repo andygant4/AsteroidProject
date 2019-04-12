@@ -1,0 +1,38 @@
+﻿body {
+}
+
+
+.CS3870Title {
+    font-family: Century, Arial;
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid
+}
+
+.CS3870Name {
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    font-style: italic
+}
+
+.CenterText {
+    text-align: center;
+}
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 10em;
+    z-index: 1;
+}
+.TitleAlign {
+    text-align: center
+}
+.ListAlign{
+    margin-left: 40%
+}

@@ -1,0 +1,44 @@
+﻿{
+  "questions": [
+    {
+      "question": "The United States won the 2018 FIFA World Cup",
+      "options": [
+        "true",
+        "false"
+      ],
+      "answer": "false"
+    },
+    {
+      "question": "Qi Yang has Spanish family ancestry.",
+      "options": [
+        "true",
+        "false"
+      ],
+      "answer": "false"
+    },
+    {
+      "question": "Christmas is in December.",
+      "options": [
+        "true",
+        "false"
+      ],
+      "answer": "true"
+    },
+    {
+      "question": "The mitochondria is the powerhouse of the cell.",
+      "options": [
+        "true",
+        "false"
+      ],
+      "answer": "true"
+    },
+    {
+      "question": "Bridge is the best card game ever.",
+      "options": [
+        "true",
+        "false"
+      ],
+      "answer": "true"
+    }
+  ]
+}

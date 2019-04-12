@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Prog3MasterPage.master.cs" Inherits="Prog3_Prog3MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="../StyleSheet.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <h1 class="CS3870Title">Web Protocols, Technologies and Applications</h1>
+        <h2 class="CS3870Name">Andrew Gantenbein</h2>
+        <ul class="navbar">
+            <li> <a href="Default.aspx"> All Products </a></li>
+            <li> <a href="Updating.aspx"> Updating</a></li>
+            <li> <a href="Shopping.aspx"> Shopping </a></li>
+        </ul>
+    <div>
+        <asp:ContentPlaceHolder id="CPBody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

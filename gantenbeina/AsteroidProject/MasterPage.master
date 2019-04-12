@@ -1,0 +1,155 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="AsteroidProject_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Quiz Test</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <meta name="google-signin-client_id" content="920463541518-esa4re60dj6dja2s2jqglsbh1qng0agi.apps.googleusercontent.com">
+</head>
+<body class="bg-dark">
+    <form class="bg-dark" id="form1" runat="server">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger" id="header">
+            <a class="navbar-brand" href="https://www.youtube.com/watch?v=WYSupJ5r2zo">AsteroidsRUs</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav abs-center-x">
+                    <li class="nav-item">
+                        <a class="nav-link" href="default.aspx">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.aspx">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Mission.aspx">Mission</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">Asteroids</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Quiz.aspx?quizID=colorblind">Asteroid 1</a>
+                            <a class="dropdown-item" href="Quiz.aspx?quizID=shapes">Aseroid 2</a>
+                            <a class="dropdown-item" href="mapGuesser.aspx">Asteroid 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" data-toggle="dropdown">Mining Techniques</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Quiz.aspx?quizID=colorblind">Mining 1</a>
+                            <a class="dropdown-item" href="Quiz.aspx?quizID=shapes">Mining 2</a>
+                            <a class="dropdown-item" href="mapGuesser.aspx">Mining 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <div class="form-inline">
+<%--                            <button type="button" id="btnSignUp" class="btn btn-outline-light mr-2" >Sign Up</button>--%>
+                            <%--<a href="#signUpModal" class="btn btn-outline-light mr-2" data-toggle="modal">Sign Up</a>
+                            <a href="#myModal" class="trigger-btn btn btn-success" data-toggle="modal">Log In</a>--%>
+                            <%--<button type="button" id="btnLogIn" class="btn btn-success">Log In</button>--%>
+                            <div class="g-signin2 rounded" data-onsuccess="onSignIn" id="google-sign-in"></div>
+                            <div id="google-account" style="display:none">
+                                <span id="google-name" class="small" style="color:#fff"></span>
+                                <a href="#" id="google-avatar" data-toggle="popover" data-placement="bottom">
+                                    <img id="google-avatar-img" class="rounded-circle" style="max-height:35px; max-width:35px;"/>
+                                </a>
+                                <div id="popover-content" style="display:none">
+                                    <button type="button" id="btnLogOut" class="btn btn-primary" onclick="signOut()">Log Out</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog modal-login">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Log In</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <%--<input type="text" class="form-control" name="username" placeholder="Username" required="required">--%>
+                                <asp:TextBox ID="TextBox1" runat="server" class="form-control" name="username" placeholder="Username" required="required"></asp:TextBox>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-lg btn-block login-btn">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="signUpModal" class="modal fade">
+            <div class="modal-dialog modal-login">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Log In</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body justify-content-center">
+                        <form>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4" id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderPageBody" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="row" style="height: 5em;">
+            </div>
+            <footer class="page-footer font-small pt-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <small>I have no clue what I'm doing</small>
+                        </div>
+                        <div class="col-sm">
+                        </div>
+                        <div class="col-sm justify-content-right">
+                            <small><a href="https://people.uwplatt.edu/~yangq/" target="_blank" style="text-decoration:none;color:black;">Ⓒ</a> Copyright whenever. Shit, I don't know.</small>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </form>
+
+    
+    
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/siteHandler.js"></script>
+    <script src="./js/googleSignIn.js"></script>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderScripts" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

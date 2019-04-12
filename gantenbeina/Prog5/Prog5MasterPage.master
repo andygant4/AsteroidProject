@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainMasterPage.master" AutoEventWireup="true" CodeFile="Prog5MasterPage.master.cs" Inherits="Prog5_Prog5MasterPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainHead" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainBody" Runat="Server">
+    <h3 style="text-align: center; display: block">
+         <span style="float: left; display: inline-block; ">
+         <asp:LoginName ID="LoginName1" runat="server">
+         </asp:LoginName>
+         </span>
+         Prog 5
+         <span style="float: right; display: inline-block; ">
+         <asp:LoginStatus ID="LoginStatus1" runat="server" OnLoggingOut="LoginStatus1_LoggingOut" />
+         </span>
+    </h3>
+    <asp:TreeView ID="TreeView1" runat="server" CssClass="navbar">
+        <Nodes>
+            <asp:TreeNode NavigateUrl="~/Prog5/Default.aspx" Text="All Products" Value="All Products"></asp:TreeNode>
+            <asp:TreeNode NavigateUrl="~/Prog5/Updating.aspx" Text="Updating" Value="Updating"></asp:TreeNode>
+            <asp:TreeNode NavigateUrl="~/Prog5/Shopping.aspx" Text="Shopping" Value="Shopping"></asp:TreeNode>
+            <asp:TreeNode NavigateUrl="~/Prog5/Checkout.aspx" Text="Checkout" Value="Checkout"></asp:TreeNode>
+        </Nodes>
+    </asp:TreeView>
+    <asp:ContentPlaceHolder ID="Prog5Body" runat="server"></asp:ContentPlaceHolder>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AlphaF2018_2 %>"
+        DeleteCommand="DELETE FROM [Product] WHERE [ProductID] = @ProductID" 
+        InsertCommand="INSERT INTO [Product] ([ProductID], [ProductName], [UnitPrice], [Description]) VALUES (@ProductID, @ProductName, @UnitPrice, @Description)" 
+        SelectCommand="SELECT * FROM [Product] ORDER BY [ProductID]" 
+        UpdateCommand="UPDATE [Product] SET [ProductName] = @ProductName, [UnitPrice] = @UnitPrice, [Description] = @Description WHERE [ProductID] = @ProductID">
+        <DeleteParameters>
+            <asp:Parameter Name="ProductID" Type="String" />
+        </DeleteParameters>
+        <InsertParameters>
+            <asp:Parameter Name="ProductID" Type="String" />
+            <asp:Parameter Name="ProductName" Type="String" />
+            <asp:Parameter Name="UnitPrice" Type="Decimal" />
+            <asp:Parameter Name="Description" Type="String" />
+        </InsertParameters>
+        <UpdateParameters>
+            <asp:Parameter Name="ProductName" Type="String" />
+            <asp:Parameter Name="UnitPrice" Type="Decimal" />
+            <asp:Parameter Name="Description" Type="String" />
+            <asp:Parameter Name="ProductID" Type="String" />
+        </UpdateParameters>
+</asp:SqlDataSource>
+</asp:Content>
+
