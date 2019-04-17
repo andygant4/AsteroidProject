@@ -4,7 +4,7 @@ var questions = [];
 
 var questionIndex = 0;
 
-var questionAnswered = true;
+var questionAnswered = false;
 
 var choiceCards = [$('#choice0'), $('#choice1'), $('#choice2'), $('#choice3')];
 
@@ -39,8 +39,6 @@ $(document).ready(function () {
     $("#quiz-title").text(quiz.name);
     $("#quiz-description").text(quiz.description);
     loadQuestion(questionIndex);
-    $("#btnNext").removeAttr("disabled");
-    $("#btnPrev").removeAttr("disabled");
 });
 
 $("#btnNext").click(function () {
@@ -90,29 +88,27 @@ function submitAnswer(choice){
 function loadNext() {
     questionIndex = mod(++questionIndex, quiz.questions.length);
     loadQuestion(questionIndex);
-    submitAnswer();
 }
 
 function loadPrev() {
     i = mod(--questionIndex, quiz.questions.length);
     loadQuestion(questionIndex);
-    submitAnswer();
 }
 
 function loadQuestion(slideNum) {
-    answered = true;
+    answered = false;
     $('#qText').text(quiz.questions[slideNum].text);
     $('#qImg').attr('src', quiz.questions[slideNum].image);
-    //choiceCards[0].find("p").text(quiz.questions[slideNum].choices[0]);
-    //choiceCards[1].find("p").text(quiz.questions[slideNum].choices[1]);
-    //choiceCards[2].find("p").text(quiz.questions[slideNum].choices[2]);
-    //choiceCards[3].find("p").text(quiz.questions[slideNum].choices[3]);
-    //$(".choice-card").removeClass("bg-success");
-    //$(".choice-card").removeClass("bg-danger");
+    choiceCards[0].find("p").text(quiz.questions[slideNum].choices[0]);
+    choiceCards[1].find("p").text(quiz.questions[slideNum].choices[1]);
+    choiceCards[2].find("p").text(quiz.questions[slideNum].choices[2]);
+    choiceCards[3].find("p").text(quiz.questions[slideNum].choices[3]);
+    $(".choice-card").removeClass("bg-success");
+    $(".choice-card").removeClass("bg-danger");
     $("#btnPrev").attr("disabled", "disabled");
     $("#btnNext").attr("disabled", "disabled");
     $(".alert").text(quiz.questions[questionIndex].message).hide();
-    submitAnswer();
+    submitAnswer(1);
 }
 
 function mod(n, m) {

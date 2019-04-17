@@ -70,8 +70,13 @@
                         -%>--%>
                     <div class="row my-4 justify-content-around">
                         <button type="button" class="btn btn-success nav-button" id="btnPrev">Previous</button>
-                        <button type="button" class="btn btn-success nav-button" id="btnNext">Next</button>
-                    </div>
+                        <button type="button" class="btn btn-success nav-button" id="btnNext" >Next</button>
+                                           <div class="col">
+                            <div class="card choice-card" id="choice3" onclick="submitAnswer(3)"  >Next
+                                <div class="card-body">
+                        </div>
+                                </div>
+                                </div>
                 </div>
 
             </div>

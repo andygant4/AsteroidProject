@@ -96,7 +96,7 @@ function loadPrev() {
 }
 
 function loadQuestion(slideNum) {
-    answered = false;
+    answered = true;
     $('#qText').text(quiz.questions[slideNum].text);
     $('#qImg').attr('src', quiz.questions[slideNum].image);
     choiceCards[0].find("p").text(quiz.questions[slideNum].choices[0]);
@@ -108,6 +108,7 @@ function loadQuestion(slideNum) {
     $("#btnPrev").attr("disabled", "disabled");
     $("#btnNext").attr("disabled", "disabled");
     $(".alert").text(quiz.questions[questionIndex].message).hide();
+
 }
 
 function mod(n, m) {

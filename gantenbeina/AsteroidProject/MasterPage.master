@@ -47,7 +47,7 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" data-toggle="dropdown">Mining Techniques</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="Quiz.aspx?quizID=colorblind">Mining 1</a>
-                            <a class="dropdown-item" href="Quiz.aspx?quizID=shapes">Mining 2</a>
+                            <a class="dropdown-item" href="Quiz.aspx?quizID=presentation">Mining 2</a>
                             <a class="dropdown-item" href="mapGuesser.aspx">Mining 3</a>
                         </div>
                     </li>
