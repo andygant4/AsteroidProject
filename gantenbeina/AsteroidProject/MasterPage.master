@@ -38,17 +38,17 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">Asteroids</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="Quiz.aspx?quizID=colorblind">Asteroid 1</a>
-                            <a class="dropdown-item" href="Quiz.aspx?quizID=shapes">Aseroid 2</a>
-                            <a class="dropdown-item" href="mapGuesser.aspx">Asteroid 3</a>
+                            <a class="dropdown-item" href="Quiz.aspx?quizID=colorblind">Eunomia</a>
+                            <a class="dropdown-item" href="Quiz.aspx?quizID=shapes">Vesta</a>
+                            <a class="dropdown-item" href="mapGuesser.aspx">Pallas</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" data-toggle="dropdown">Mining Techniques</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="Quiz.aspx?quizID=colorblind">Mining 1</a>
-                            <a class="dropdown-item" href="Quiz.aspx?quizID=presentation">Mining 2</a>
-                            <a class="dropdown-item" href="mapGuesser.aspx">Mining 3</a>
+                            <a class="dropdown-item" href="Quiz.aspx?quizID=colorblind">Shaft Mining</a>
+                            <a class="dropdown-item" href="Quiz.aspx?quizID=presentation">Magnetic Rakes</a>
+                            <a class="dropdown-item" href="mapGuesser.aspx">Self-Replicating Machines</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -126,14 +126,14 @@
             </div>
             <footer class="page-footer font-small pt-4">
                 <div class="container">
-                    <div class="row">
+                    <div class="row text-white">
                         <div class="col-sm">
-                            <small>I have no clue what I'm doing</small>
+                            <small>We have no clue what we're doing</small>
                         </div>
                         <div class="col-sm">
                         </div>
                         <div class="col-sm justify-content-right">
-                            <small><a href="https://people.uwplatt.edu/~yangq/" target="_blank" style="text-decoration:none;color:black;">Ⓒ</a> Copyright whenever. Shit, I don't know.</small>
+                            <small><a href="https://people.uwplatt.edu/~yangq/" target="_blank" style="text-decoration:none;color:black;">Ⓒ</a>AsteroidRUs</small>
                         </div>
                     </div>
                 </div>

@@ -3,21 +3,20 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderPageBody" runat="Server">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-4 center-block text-center">
-                <h2>Thomassss</h2>                  
+            <div class="col-md-4 center-block text-white text-center">
+                <h2>Samuel - The Artist</h2>                  
             
                 <br />
-                <a href="https://www.youtube.com/watch?v=DbJm2kegNck" target="_blank" style="text-decoration:none;cursor:default;">
-                    <img src="https://steamuserimages-a.akamaihd.net/ugc/170415189369009280/546EF42C011CBE300554854804A41F190E7DD118/" title="M O U T H F E E L" class="img-fluid" alt="Responsive image" style="max-width: 200px; max-height: 200px;">
+                <a href="https://www.youtube.com/watch?time_continue=37&v=3O1_3zBUKM8" target="_blank" style="text-decoration:none;cursor:default;">
+                    <img src="https://www.ocregister.com/wp-content/uploads/2018/08/0827_OCR-L-SMITH-WBOX-01_26654797_59631-1.jpg?w=642" title="M O U T H F E E L" class="img-fluid" alt="Responsive image" style="max-width: 200px; max-height: 200px;">
                 </a>
                 <br />
                 <br />
                 <p>
-A spectre is haunting Europeeee — the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich and Guizot, French Radicals and German police-spies.
-
-Where is the party in opposition that has not been decried as communistic by its opponents in power? Where is the opposition that has not hurled back the branding reproach of communism, against the more advanced opposition parties, as well as against its reactionary adversaries?                </p>
+                    I am the real Sam Smith. The other guy is a fraud and is not as cool as me.
+               </p>
             </div>
-            <div class="col-md-4 center-block text-center">
+            <div class="col-md-4 center-block text-white text-center">
                 <h2>Andrew</h2>
                 <br />
                 <a href="https://www.youtube.com/watch?v=3KquFZYi6L0" target="_blank" style="text-decoration:none;cursor:default;">
@@ -32,7 +31,7 @@ Where is the party in opposition that has not been decried as communistic by its
         </div>
         <br />
         <br />
-        <div class="row justify-content-center">
+        <div class="row text-white justify-content-center">
             <div class="col-md-4 center-block text-center">
                 <h2>Zachary</h2>
                 <br />
@@ -42,20 +41,7 @@ Where is the party in opposition that has not been decried as communistic by its
                 <br />
                 <br />
                 <p>
-                   Hey guys I’m going to the Mall of America on December 18th, y’all want anything?
-                </p>
-
-            </div>
-            <div class="col-md-4 center-block text-center">
-                <h2>Dexter</h2>
-                <br />
-                <a href="https://www.youtube.com/watch?v=OllD1NrHi9U" target="_blank" style="text-decoration:none;cursor:default;">
-                    <img src="https://pbs.twimg.com/profile_images/1237550450/mstom_400x400.jpg" title="I watched as he interrogated the “real people” who clearly owned those despicable foreign brand trucks and cars. Some baffoon answers Ford. The Chevy Clipboard guy looks at him and the man who answered Ford knew it was the last mistake he would ever make. Ford guy wasn’t seen for the rest if the commercial. “Is it...Ram?” asks another. The Clipboard Guy slowly shifts his gaze from where Ford guy was once standing and Ram guy realized his mistake. He was gunned down by Chevy employees. 10 more car brands were mentioned including Fiat and 10 more people were killed. Clipboard guy gives up as there are no more people to answer. He says “Chevy” and the commercial ends." class="img-fluid" alt="Responsive image" style="max-width: 200px; max-height: 200px;">
-                </a>
-                <br />
-                <br />
-                <p>
-                    I was minding my own business yesterday when I realized I hadn’t seen a Chevy commercial in over 10 minutes. Right as the thought entered my head, the clipboard guy appeared on screen. “THESE ARE REAL PEOPLE” the commercial says. He begins to speak. “What truck brand comes from the family of the most dependable, longest-lasting full sized pickups on the road?” I knew the answer. Chevy. Fucking Chevrolet.
+                   Hey guys I’m going to the Mall of America on May 5th, y’all want anything?
                 </p>
 
             </div>
