@@ -23,6 +23,7 @@
                 <img src="https://vignette.wikia.nocookie.net/terraforming/images/5/5e/15_Eunomia.jpg/revision/latest?cb=20131227191541" class="img-fluid" alt="Responsive image">
             </div>
                 </div>
+            <br />
                         <div class="row" >
             <div class="col">
                 <h2 style="text-align: center">Composition</h2>

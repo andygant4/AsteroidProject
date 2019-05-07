@@ -19,6 +19,7 @@
                 <img src="https://pbs.twimg.com/media/C3psz1bWYAAMASR.jpg" class="img-fluid" alt="Responsive image">
             </div>
                 </div>
+            <br />
                         <div class="row" >
             <div class="col">
                 <h2 style="text-align: center">Problems with shaft mining on an asteroid </h2>

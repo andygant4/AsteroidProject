@@ -9,21 +9,19 @@
                 <h2 style="text-align: center">Why Shaft Mining</h2>
                 <br />
                 <p >
-                Shaft mining is where you have an elavator at the top of the surface that lowers you into the asteroid, where we will have to mine out tunnels to mine the ore for the mission.
-                We chose shaft mining, since most of the mining we will be doing is inside the Asteroid. We will do this by creating a central hub base on the asteroid, connected to a central
-                shaft to go inside the Asteroid. Since there will be no oxygen inside the Asteroid. To be able to mine we will send humans down the shaft in space suits. They will then physically
-                mine until air in tank gets low. The central shaft will be vacumed sealed so there will be air allowing you to be able to move easly. There will be many problems that will happen for this to work. 
+                Self-Replicating mining would entail using large 3D-printers to produce the majority of supplies on site. The goal is to produce 80% of required equipment on the asteroid; while importing more sensitive parts from Earth. The 3D-printers would use the onsite materials to produce a filament. Once the process of filament production is automated, the costs required to mine are reduced significantly. In the long-term, self-replicating mining allows the company to branch into other industries. The most lucrative would be to search for alternative fuel sources. 
                 </p>
             </div>
             <div class="col">
-                <img src="https://pbs.twimg.com/media/C3psz1bWYAAMASR.jpg" class="img-fluid" alt="Responsive image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Advanced_Automation_for_Space_Missions_figure_5-29.gif" class="img-fluid" alt="Responsive image">
             </div>
                 </div>
+            <br />
                         <div class="row" >
             <div class="col">
                 <h2 style="text-align: center">Problems with shaft mining on an asteroid </h2>
                 <br />
-                Since this will be in and on the Asteroid Belt, we will run into problems of other asteroid hitting the one we are currently mining on. We also will have the problem with food and air, since we are so far away we will need to monitor our resources so we do not run out before we get back.
+                This idea is still highly theoretical and would require an initial trip to gather soil. Once back on earth, scientist would have to create a process to make “filament”. It would likely take over a decade to reach the point where filament is easily produced and passes quality control. Lastly, like concrete, a filament mix has to be sent to the asteroids for production. This would increase the frequency of launches, but reduce the weight of the launches.
             </div>
             <div class="col">
                 <img src="https://www.explainingthefuture.com/visions/asteroid_base_800x450.jpg" class="img-fluid" alt="Responsive image">
