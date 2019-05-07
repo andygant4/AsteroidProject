@@ -2,7 +2,10 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderPageBody" Runat="Server">
             <div class="row text-white">
-        <h1 style="text-align: center">Shaft Mining</h1>
+                <div class="col-lg">
+                    <h1 style="text-align: center">Shaft Mining</h1>
+                </div>
+        
         <div class="container">
             <div class="row" >
             <div class="col">
