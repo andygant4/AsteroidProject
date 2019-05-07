@@ -36,12 +36,12 @@
                 <h2>Zachary</h2>
                 <br />
                 <a href="https://www.youtube.com/watch?v=ZaY3xXj_nyY" target="_blank" style="text-decoration:none;cursor:default;">
-                    <img src="./assets/zuckerberg.png" title="lemme s i p p" class="img-fluid" alt="Responsive image" style="max-width: 200px; max-height: 200px;">
+                    <img src="https://pbs.twimg.com/profile_images/1120722163697356805/5e41UcE2_400x400.png" title="lemme s i p p" class="img-fluid" alt="Responsive image" style="max-width: 200px; max-height: 200px;">
                 </a>
                 <br />
                 <br />
                 <p>
-                   Hey guys I’m going to the Mall of America on May 5th, y’all want anything?
+                   .
                 </p>
 
             </div>

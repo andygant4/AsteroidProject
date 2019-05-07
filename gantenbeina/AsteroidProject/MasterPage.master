@@ -38,15 +38,16 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">Asteroids</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="Quiz.aspx?quizID=colorblind">Eunomia</a>
-                            <a class="dropdown-item" href="Quiz.aspx?quizID=shapes">Vesta</a>
-                            <a class="dropdown-item" href="mapGuesser.aspx">Pallas</a>
+                            <a class="dropdown-item" href="Eunomia.aspx">Eunomia</a>
+                            <a class="dropdown-item" href="Vesta.aspx">Vesta</a>
+                            <a class="dropdown-item" href="pallas.aspx">Pallas</a>
+                            <a class="dropdown-item" href="mapGuesser.aspx">Google Maps Guesser</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" data-toggle="dropdown">Mining Techniques</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="Quiz.aspx?quizID=colorblind">Shaft Mining</a>
+                            <a class="dropdown-item" href="ShaftMining.aspx">Shaft Mining</a>
                             <a class="dropdown-item" href="Quiz.aspx?quizID=presentation">Magnetic Rakes</a>
                             <a class="dropdown-item" href="mapGuesser.aspx">Self-Replicating Machines</a>
                         </div>
