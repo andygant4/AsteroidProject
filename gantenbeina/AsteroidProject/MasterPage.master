@@ -48,8 +48,8 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" data-toggle="dropdown">Mining Techniques</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="ShaftMining.aspx">Shaft Mining</a>
-                            <a class="dropdown-item" href="Quiz.aspx?quizID=presentation">Magnetic Rakes</a>
-                            <a class="dropdown-item" href="mapGuesser.aspx">Self-Replicating Machines</a>
+                            <a class="dropdown-item" href="MagneticRakes.aspx">Magnetic Rakes</a>
+                            <a class="dropdown-item" href="SelfMachines.aspx">Self-Replicating Machines</a>
                         </div>
                     </li>
                     <li class="nav-item">
