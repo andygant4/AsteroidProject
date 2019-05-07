@@ -2,24 +2,26 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderPageBody" Runat="Server">
         <div class="row text-white">
-        <h1 style="text-align: center">Vesta</h1>
+        <div class="col-lg">
+            <h1 style="text-align: center">Vesta</h1>
+        </div>
         <div class="container">
             <div class="row" >
             <div class="col">
                 <h2 style="text-align: center">Characteristics</h2>
                 <br />
-                Dimensions: 357 x 255 x 212 kilometers
+                Dimensions: 	572.6 x 557.2 x 446.4 kilometers
                 <br />
-                Mass:       3.12 x 10 ^ 19 kilograms
+                Mass:       1.59076 x 10 ^ 20 kilograms
                 <br />
-                Aphelion (farthest from earth): 3.138AU
+                Aphelion (farthest from earth): 1.57138 AU
                 <br />
-                Perihelion (Clostest to earth): 2.149AU
+                Perihelion (Clostest to earth): 1.15221 AU
                 <br />
-                Orbital period: 4.30 years
+                Orbital period: 3.63 years
             </div>
             <div class="col">
-                <img src="https://vignette.wikia.nocookie.net/terraforming/images/5/5e/15_Eunomia.jpg/revision/latest?cb=20131227191541" class="img-fluid" alt="Responsive image">
+                <img src="https://www.universetoday.com/wp-content/uploads/2018/06/pia15678_page.jpg" class="img-fluid" alt="Responsive image">
             </div>
                 </div>
             <br />
@@ -27,13 +29,7 @@
             <div class="col">
                 <h2 style="text-align: center">Composition</h2>
                 <br />
-                Nickel, Iron, Calcium rich pyroxenes
-                <br />
-                Olivine 
-                <br />
-                Good cut: $450 per ct
-                <br />              
-                Bad  cut: $50 - $80 per ct
+                Nickel/Iron core, Regolith Surface
 
             </div>
             <div class="col">
