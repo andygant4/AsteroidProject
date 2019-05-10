@@ -33,7 +33,7 @@
 
             </div>
             <div class="col">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Olivine-gem7-10a.jpg" class="img-fluid" alt="Responsive image">
+                <img src="https://coinweek.com/wp-content/uploads/2018/04/1947dobverse5c.jpg" class="img-fluid" alt="Responsive image">
             </div>
                 </div>
         </div>

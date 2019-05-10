@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderPageBody" Runat="Server">
       <div class="row">
             <div class="col-lg text-white bg-dark" >
-               <h1 style="text-align:center">Welcome to the Asteroid Mining Mission Page</h1> 
+               <h1 style="text-align:center">Asteroids</h1> 
               
             </div>
         </div>

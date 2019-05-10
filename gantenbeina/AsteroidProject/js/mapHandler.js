@@ -12,7 +12,7 @@ function submitAnswer() {
     if ($('#txt-country').val() === countries[locationIndex])
         alert("Correct!");
     else
-        alert("Memes!");
+        alert("Wrong!");
     locationIndex = mod(++locationIndex, (countries.length - 1));
     updateMap(locationIndex);
     console.log($('#txt-country').val());
